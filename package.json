@@ -1,0 +1,28 @@
+{
+  "name": "webpack-example-stylus",
+  "version": "0.1.0",
+  "description": "Example of using webpack and stylus",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --port 3000 --content-base dist/ --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deedubs/webpack-example-stylus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deedubs/webpack-example-stylus/issues"
+  },
+  "homepage": "https://github.com/deedubs/webpack-example-stylus",
+  "dependencies": {  },
+  "devDependencies": {
+    "css-loader": "^0.9.0",
+    "extract-text-webpack-plugin": "^0.3.5",
+    "style-loader": "^0.8.2",
+    "stylus-loader": "^0.4.0",
+    "webpack": "^1.4.13",
+    "webpack-dev-server": "^1.6.6"
+  }
+}
